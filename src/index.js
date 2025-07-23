@@ -2,7 +2,7 @@
 const link = document.querySelector('#link');
 const botao = document.querySelector('#enviar');
 const container = document.querySelector('.output');
-const verifierHTTP = 'https://www.';
+const verifierHTTP = 'https://';
 
 botao.addEventListener('click', ()=>{
     container.innerHTML = '';  //Limpando container
