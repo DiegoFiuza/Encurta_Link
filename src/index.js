@@ -55,7 +55,7 @@ const Encurta =function(){
             img.src = url;
             container.appendChild(img);
             })
-        encurtado.textContent= `shorter.url/${rand(4)}`;
+        encurtado.textContent= `shorten.url/${rand(4)}`;
         encurtado.classList.add('text-blue-600');
         encurtado.classList.add('underline');
         encurtado.classList.add('ml-10');
